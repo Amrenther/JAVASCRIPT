@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <!--Dom Introduction-->
+    <p id="paragraph1">Paragraph 1</p>
+    <p id="paragraph2">Paragraph 2</p>
+    <p id="paragraph3">Paragraph 3</p>
+    
+    <!--Event Handling-->
+    <!--Click Event-->
+    <!--Inline Script-->
+    <button onclick="ChangeText()">Change</button>
+    <h3 id="heading1">Heading 1</h3>
+    <button id="myButton">Change This</button>
+    <h3 id="heading2">Heading 2</h3>
+    <button id="changeBtn">Click Me</button>
+    <h3 id="heading3">Heading 3</h3>
+    <!--Internal Script-->
+    <script src="main.js">
+        //console.log(document.getElementById('paragraph1').innerHTML)
+        //console.log(document.getElementById('paragraph1'))
+        //console.log(document.getElementById('paragraph1').innerHTML = "Hello World!")
+        document.getElementById("paragraph2").innerHTML = "Paragraph 2 changed"
+        document.getElementById('paragraph3').innerHTML = "<b>Changed to bold text</b>"
+        
+    </script>
+</body>
+</html>
