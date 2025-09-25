@@ -24,3 +24,11 @@ function ChangeBtn() {
     console.log("This button is changed the Heading from heading 3 to heading 3 changed as Underline")
 }
 
+function para() {
+      document.getElementById("para").innerHTML = "This is the new Project"
+}
+
+document.getElementById('btn').addEventListener("click",function(){
+    para()
+    console.log("Just for verification!")
+})
