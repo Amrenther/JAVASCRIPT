@@ -19,3 +19,27 @@ document.getElementById('search').addEventListener('keyup',()=>{
         document.getElementById('result').innerHTML += `<h1>${item}</h1>`
     })
 })
+
+// let numbers = [10,20,30,40,50,60]
+
+// let filteredNumbers = numbers.filter(item =>{
+//     return item >=35
+// })
+// console.log(filteredNumbers)
+
+//  let numbers = [10,20,30,40,50,60]
+
+// let filteredNumbers = numbers.filter(item => item >=35)
+
+//  console.log(filteredNumbers)
+
+ let numbers = [10,20,30,40,50,60]
+
+let filteredNumbers = numbers.find(item =>{
+    //return item > 40
+    //return item >= 40
+    return item < 60
+})
+
+ console.log(filteredNumbers)
+
