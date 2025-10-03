@@ -34,8 +34,9 @@ document.getElementById('search').addEventListener('keyup',()=>{
 //  console.log(filteredNumbers)
 
  let numbers = [10,20,30,40,50,60]
-
+debugger
 let filteredNumbers = numbers.find(item =>{
+    
     //return item > 40
     //return item >= 40
     return item < 60
